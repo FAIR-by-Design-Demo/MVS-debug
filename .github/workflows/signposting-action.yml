@@ -19,3 +19,17 @@ jobs:
       
       - name: List folder structure
         run: ls -lah
+
+      - name: Check for changes
+        run: |
+          test -z "$(git status --porcelain)" || echo "changes=true" >> $GITHUB_ENV
+
+      - name: Commit and push Zenodo metadata
+        if: env.changes == 'true'
+        id: commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add linkset.json
+          git commit -m "Automated update linkset information" || true
+          git push
