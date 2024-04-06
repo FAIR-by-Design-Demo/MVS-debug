@@ -1,4 +1,4 @@
-name: Publish as Git Book on GitHub Pages
+name: Test Signposting
 on:
   workflow_dispatch:
 jobs:
