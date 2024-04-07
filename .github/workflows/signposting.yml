@@ -13,7 +13,7 @@ jobs:
           ref: main
 
       - name: Extract information
-        uses: korvoj/signposting@master
+        uses: korvoj/signposting@1.0.0
         with:
           default-profile-discovered-items: 'https://raw.githubusercontent.com/FAIR-by-Design-Methodology/MVS/main/resources/MVS%20Template/template.md'
           github-pages-url: 'https://fair-by-design-methodology.github.io/MVS/latest/'
