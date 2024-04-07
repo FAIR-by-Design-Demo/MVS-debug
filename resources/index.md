@@ -53,7 +53,7 @@ The catalogue of Minimum Viable Skillset (MVS) Profiles describes key skills and
 
 ## Objectives
 
-- Describe key skills and competences for roles that enable researchers, professionals, and stakeholders to practice Open Science
+- Describe key skills and competences for roles that enable researchers, professionals, and stakeholders to practice Open Science.
 
 ## Target audience: Learning materials developers
 
