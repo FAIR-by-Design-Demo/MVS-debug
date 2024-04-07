@@ -77,3 +77,4 @@ signposting_exclusions:
   - '02 process_description.md'
   - '03 glossary.md'
   - 'MVS Template/template.md'
+signposting_linkset: https://raw.githubusercontent.com/FAIR-by-Design-Demo/MVS-debug/main/linkset.json
